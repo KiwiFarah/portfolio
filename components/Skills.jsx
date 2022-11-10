@@ -1,20 +1,20 @@
 import React from 'react'
 import Image from 'next/image';
-import Html from '../public/assets/skills/html.png';
-import Css from '../public/assets/skills/css.png';
-import Javascript from '../public/assets/skills/javascript.png';
-import ReactImg from '../public/assets/skills/react.png';
-import Node from '../public/assets/skills/node.png';
-import Github from '../public/assets/skills/github1.png';
-import PHP from '../public/assets/skills/php.png';
-import Typescript from '../public/assets/skills/TS.png'
-import NextJS from '../public/assets/skills/nextjs.png'
-import NestJS from '../public/assets/skills/nestjs.png'
-import MUI from '../public/assets/skills/mui.png'
-import Redux from '../public/assets/skills/redux.png'
-import Prisma from '../public/assets/skills/prisma.png'
-import MySQL from '../public/assets/skills/mysql.png'
-import Sourcetree from '../public/assets/skills/sourcetree.png'
+import Html from '../public/assets/Skills/html.png';
+import Css from '../public/assets/Skills/css.png';
+import Javascript from '../public/assets/Skills/javascript.png';
+import ReactImg from '../public/assets/Skills/react.png';
+import Node from '../public/assets/Skills/node.png';
+import Github from '../public/assets/Skills/github1.png';
+import PHP from '../public/assets/Skills/php.png';
+import Typescript from '../public/assets/Skills/TS.png'
+import NextJS from '../public/assets/Skills/nextjs.png'
+import NestJS from '../public/assets/Skills/nestjs.png'
+import MUI from '../public/assets/Skills/mui.png'
+import Redux from '../public/assets/Skills/redux.png'
+import Prisma from '../public/assets/Skills/prisma.png'
+import MySQL from '../public/assets/Skills/mysql.png'
+import Sourcetree from '../public/assets/Skills/sourcetree.png'
 
 
 function Skills() {
