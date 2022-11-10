@@ -7,6 +7,7 @@ import {BsFillPersonLinesFill } from 'react-icons/bs'
 
 
 
+
 const Navbar = () => {
   const [nav,setNav] = useState(false)
 
@@ -17,7 +18,8 @@ const Navbar = () => {
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/NavbarLogo.png"
+          //src="/../public/assets/NavbarLogo.png"
+          src={require('/../public/assets/NavbarLogo')} 
           alt="/"
           width="120"
           height="45"
