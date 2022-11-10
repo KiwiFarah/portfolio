@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Rental from '../public/assets/Projects/Rental management.jpg';
-import SMS from '../public/assets/projects/SMS.jpg'
+import SMS from '../public/assets/Projects/SMS.jpg'
 import Webservice from '../public/assets/Projects/Webservices.jpg'
 import Website from '../public/assets/Projects/Website.jpg'
 import ProjectItem from './ProjectItem';
