@@ -4,7 +4,7 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import {BsFillPersonLinesFill } from 'react-icons/bs'
-
+import Logo from '../public/assets/NavbarLogo.png'
 
 
 
@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
           //src="/../public/assets/NavbarLogo.png"
-          src={require('public/assets/NavbarLogo.png')} 
+          src={Logo} 
           alt="/"
           width="120"
           height="45"
