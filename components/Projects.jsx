@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Rental from '../public/assets/projects/Rental management.jpg';
+import Rental from '../public/assets/Projects/Rental management.jpg';
 import SMS from '../public/assets/projects/SMS.jpg'
 import Webservice from '../public/assets/projects/Webservices.jpg'
 import Website from '../public/assets/projects/Website.jpg'
