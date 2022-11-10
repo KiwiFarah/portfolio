@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
           //src="/../public/assets/NavbarLogo.png"
-          src={require('public\assets\NavbarLogo.png')} 
+          src={require('public/assets/NavbarLogo.png')} 
           alt="/"
           width="120"
           height="45"
