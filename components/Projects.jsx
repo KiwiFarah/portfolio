@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Rental from '../public/assets/Projects/Rental management.jpg';
+import Weather from '../public/assets/Projects/weather-app.png';
 import SMS from '../public/assets/Projects/SMS.jpg'
 import Webservice from '../public/assets/Projects/Webservices.jpg'
 import Website from '../public/assets/Projects/Website.jpg'
@@ -23,10 +23,10 @@ const Projects = () => {
             tech='MERN Stack'
           />
           <ProjectItem
-            title='Vehicle Rental Management System'
-            backgroundImg={Rental}
+            title='React Weather App'
+            backgroundImg={Weather}
             projectUrl='/crypto'
-            tech='.NET'
+            tech='React JS | OpenWeatherMap API'
 
           />
           <ProjectItem
