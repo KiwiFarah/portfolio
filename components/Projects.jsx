@@ -19,13 +19,13 @@ const Projects = () => {
           <ProjectItem
             title='To DO List'
             backgroundImg={List}
-            projectUrl='/property'
+            projectUrl='/projectone'
             tech='React JS | UseState-hooks'
           />
           <ProjectItem
             title='React Weather App'
             backgroundImg={Weather}
-            projectUrl='/crypto'
+            projectUrl='/projecttwo'
             tech='React JS | OpenWeatherMap API'
 
           />
