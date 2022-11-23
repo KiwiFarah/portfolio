@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Weather from '../public/assets/Projects/weather-app.png';
-import SMS from '../public/assets/Projects/SMS.jpg'
+import List from '../public/assets/Projects/to-do-list.png'
 import Webservice from '../public/assets/Projects/Webservices.jpg'
 import Website from '../public/assets/Projects/Website.jpg'
 import ProjectItem from './ProjectItem';
@@ -17,10 +17,10 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Student Management System'
-            backgroundImg={SMS}
+            title='To DO List'
+            backgroundImg={List}
             projectUrl='/property'
-            tech='MERN Stack'
+            tech='React JS | UseState-hooks'
           />
           <ProjectItem
             title='React Weather App'
@@ -29,7 +29,7 @@ const Projects = () => {
             tech='React JS | OpenWeatherMap API'
 
           />
-          <ProjectItem
+          {/* <ProjectItem
             title='Web Service Provider Frontend'
             backgroundImg={Webservice}
             projectUrl='/netflix'
@@ -42,7 +42,7 @@ const Projects = () => {
             projectUrl='/twitch'
             tech='HTML | CSS | CDNJS'
 
-          />
+          /> */}
         </div>
       </div>
     </div>
