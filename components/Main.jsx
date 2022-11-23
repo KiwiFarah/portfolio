@@ -12,7 +12,7 @@ import { useRouter } from "next/router";
 
 const Main = () => {
  
-    const [nav, setNav] = useState(false);
+   const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
     const [navBg, setNavBg] = useState("#ecf0f3");
     const [linkColor, setLinkColor] = useState("#1f2937");
@@ -23,7 +23,7 @@ const Main = () => {
   
     const handleNav = () => {
       setNav(!nav);
-    };
+    }; 
   
   
   return (
